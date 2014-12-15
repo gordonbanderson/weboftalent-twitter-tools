@@ -1,0 +1,21 @@
+{
+	"name": "weboftalent/silverstripe-shortcode-youtube",
+	"description": "Adds a shortcode for embedding YouTube video.  For Silverstripe",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "shortcode","youtube"],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "https://github.com/gordonbanderson/weboftalent-youtube",
+			"role": "Developer"
+		}
+	],
+    "support": {
+        "issues": "https://github.com/gordonbanderson/weboftalent-youtube/issues"
+    },
+	"require":
+	{
+		"silverstripe/framework": "~3.1"
+	}
+}
