@@ -1,5 +1,5 @@
 {
-	"name": "weboftalent/silverstripe-shortcode-youtube",
+	"name": "weboftalent/twitter-tools",
 	"description": "Adds a shortcode for embedding YouTube video.  For Silverstripe",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "shortcode","youtube"],
