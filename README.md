@@ -4,6 +4,11 @@ This module provides the following functionality
 * Optionally include a script to enlarge images in embedded tweets so that you can have them larger than Twitter's normal minimum width
 * Twitter cards can be any type extending Page, provided an interface is implemented.
 
+## Incorporate Twitter
+One needs to incorporate the Twitter JavaScript into the page template.  There are 2 ways of doing this:
+* Add <% Include TwitterScript %> which will render the JavaScript inline
+* Include twitteruril.js, either through require_javascript or - note this also enlarges images in embedded tweets.
+
 ##Embedding Tweets
 Tweets can be embedded into content using a shortcode like the following - the id parameter is the id of the tweet.
 
@@ -59,3 +64,7 @@ This will check if the current page implements the RenderableAsTwitterCard inter
 
 ### Test With Card Validator
 Test out your twitter card using the Card Validator, https://cards-dev.twitter.com/validator on a publicly accessible version of your site - this will highlight any issues.  It should also be noted that your site will probably need whitelisted.
+
+## TODO
+* ShortCode for follow button allowing content editors to add them inline.
+* Allow different types of TwitterCard and make this configurable.
