@@ -1,18 +1,18 @@
 {
 	"name": "weboftalent/twitter-tools",
-	"description": "Adds a shortcode for embedding YouTube video.  For Silverstripe",
+	"description": "Embed tweets using shortcodes.  Optionally add Twitter cards to pages.",
 	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "shortcode","youtube"],
+	"keywords": ["silverstripe", "shortcode","Twitter","Twitter Cards"],
 	"authors": [
 		{
 			"name": "Gordon Anderson",
 			"email": "gordon.b.anderson@gmail.com",
-			"homepage": "https://github.com/gordonbanderson/weboftalent-youtube",
+			"homepage": "https://github.com/gordonbanderson/weboftalent-twitter-tools",
 			"role": "Developer"
 		}
 	],
     "support": {
-        "issues": "https://github.com/gordonbanderson/weboftalent-youtube/issues"
+        "issues": "https://github.com/gordonbanderson/weboftalent-twitter-tools/issues"
     },
 	"require":
 	{
