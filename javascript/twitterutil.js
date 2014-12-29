@@ -59,8 +59,9 @@ window.twttr = (function (d, s, id) {
 		//console.log("CURRENT HEIGHT:"+current_height);
 		//console.log("DELTA:"+delta_height);
 		var new_height = current_height+delta_height;
-
-	  	jqtarget.attr('height', new_height);
+		if (isNaN(new_height)) {
+			jqtarget.attr('height', new_height);	
+		}
 	  });	
 
 	  
