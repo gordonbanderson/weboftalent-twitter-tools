@@ -18,7 +18,7 @@ window.twttr = (function (d, s, id) {
 			  	jqtarget.find('img.autosized-media').each(function(e) {
 				  	jqthis = $(this);
 					var bigUrl = jqthis.attr('src');
-					
+
 					var srcset = jqthis.attr('data-srcset');
 					var decoded = decodeURIComponent(srcset);
 					var large_details = decoded.split(',')[0];
@@ -51,18 +51,15 @@ window.twttr = (function (d, s, id) {
 					//jqthis.removeAttr('height');
 			  	});
 	  		}
-		  	
-
-//console.log("Alterting height of iframe");
 
 		var current_height = $(event.target).attr('height');
 		//console.log("CURRENT HEIGHT:"+current_height);
 		//console.log("DELTA:"+delta_height);
 		var new_height = current_height+delta_height;
 		if (isNaN(new_height)) {
-			jqtarget.attr('height', new_height);	
+			jqtarget.attr('height', new_height);
 		}
-	  });	
+	  });
 
-	  
+
 });
