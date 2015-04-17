@@ -3,8 +3,7 @@ class TwitterLargePicTask extends BuildTask {
 
     protected $title = 'Extract larger images from tweets';
 
-    protected $description = 'Scrape tweets for their pic.twitter.com URL, then scrape the large'.
-    							'image from that';
+    protected $description = 'Scrape tweets for their pic.twitter.com URL, then large image from that';
 
     protected $enabled = true;
 
