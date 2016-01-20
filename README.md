@@ -1,4 +1,23 @@
 #Twitter Utilities
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools.svg?branch=master)](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/build-status/master)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools?branch=master)
+
+[![Latest Stable Version](https://poser.pugx.org/weboftalent/twitter-tools/version)](https://packagist.org/packages/weboftalent/twitter-tools)
+[![Latest Unstable Version](https://poser.pugx.org/weboftalent/twitter-tools/v/unstable)](//packagist.org/packages/weboftalent/twitter-tools)
+[![Total Downloads](https://poser.pugx.org/weboftalent/twitter-tools/downloads)](https://packagist.org/packages/weboftalent/twitter-tools)
+[![License](https://poser.pugx.org/weboftalent/twitter-tools/license)](https://packagist.org/packages/weboftalent/twitter-tools)
+[![Monthly Downloads](https://poser.pugx.org/weboftalent/twitter-tools/d/monthly)](https://packagist.org/packages/weboftalent/twitter-tools)
+[![Daily Downloads](https://poser.pugx.org/weboftalent/twitter-tools/d/daily)](https://packagist.org/packages/weboftalent/twitter-tools)
+
+[![Dependency Status](https://www.versioneye.com/php/weboftalent:twitter-tools/badge.svg)](https://www.versioneye.com/php/weboftalent:twitter-tools)
+[![Reference Status](https://www.versioneye.com/php/weboftalent:twitter-tools/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:twitter-tools/references)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/branch.svg?branch=master)
+
+##Introduction
 This module provides the following functionality
 * Embed tweets using a shortcode
 * Optionally include a script to enlarge images in embedded tweets so that you can have them larger than Twitter's normal minimum width
