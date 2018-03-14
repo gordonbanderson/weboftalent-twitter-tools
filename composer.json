@@ -1,26 +1,31 @@
 {
-  "name": "weboftalent/twitter-tools",
-  "description": "Embed tweets using shortcodes.  Optionally add Twitter cards to pages.",
-  "type": "silverstripe-module",
-  "keywords": [
-    "silverstripe",
-    "shortcode",
-    "Twitter",
-    "Twitter Cards"
-  ],
-  "authors": [
-    {
-      "name": "Gordon Anderson",
-      "email": "gordon.b.anderson@gmail.com",
-      "homepage": "https://github.com/gordonbanderson/weboftalent-twitter-tools",
-      "role": "Developer"
-    }
-  ],
-  "support": {
-    "issues": "https://github.com/gordonbanderson/weboftalent-twitter-tools/issues"
-  },
-  "require": {
-    "silverstripe/framework": "~3.1"
-  },
-  "license": "BSD-3-Clause"
+	"name": "weboftalent/twitter-tools",
+	"description": "Embed tweets using shortcodes.  Optionally add Twitter cards to pages.",
+	"type": "silverstripe-module",
+	"keywords": [
+		"silverstripe",
+		"shortcode",
+		"Twitter",
+		"Twitter Cards"
+	],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "https://github.com/gordonbanderson/weboftalent-twitter-tools",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gordonbanderson/weboftalent-twitter-tools/issues"
+	},
+	"require": {
+		"silverstripe/framework": "~4"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebOfTalent\\TwitterTools\\": "code/"
+		}
+	},
+	"license": "BSD-3-Clause"
 }

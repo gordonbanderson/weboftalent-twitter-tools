@@ -3,4 +3,4 @@ name: wot-twitter-card-helper
 ---
 PageController:
   extensions:
-    - TwitterCardHelper
+    - WebOfTalent\TwitterTools\TwitterCardHelper

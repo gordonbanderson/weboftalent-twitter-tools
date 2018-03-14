@@ -34,7 +34,9 @@ Tweets can be embedded into content using a shortcode like the following - the i
     [Tweet id='537136515445710848']
 
 ## Enlarging Embedded Images
-A script is included that you can include in your theme (either using require_javascript or a direct script include in the template) called twitteruril.js - include this and larger (at source size, perhaps not theme size) embedded images will render on your site.
+A script is included that you can include in your theme (either using require_javascript or a direct
+ script include in the template) called twitteruril.js - include this and larger (at source size, 
+ perhaps not theme size) embedded images will render on your site.
 
 ## Twitter Cards
 In order for a page to render an title, description and image when included as a link in a tweet, it needs provide metadata known as a Twitter Card.  There are two steps to take in order to achieve this:
