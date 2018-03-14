@@ -1,5 +1,7 @@
 <?php
 
+use SilverStripe\ORM\DataObject;
+
 class EmbeddedTweetAuthor extends DataObject {
 	private static $db = array(
 		'URL' => 'Varchar(255)',

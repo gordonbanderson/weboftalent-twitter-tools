@@ -1,4 +1,6 @@
 <?php
+
+use SilverStripe\Dev\BuildTask;
 class TwitterLargePicTask extends BuildTask {
  
     protected $title = 'Extract larger images from tweets';

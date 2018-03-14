@@ -1,4 +1,6 @@
 <?php
+
+use SilverStripe\ORM\DataObject;
 class EmbeddedTweet extends DataObject {
 	private static $db = array(
 		'cache_age' => 'Int',

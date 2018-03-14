@@ -1,6 +1,6 @@
 ---
 name: wot-twitter-card-helper
 ---
-Page_Controller:
+PageController:
   extensions:
-     ['TwitterCardHelper']
+    - TwitterCardHelper
