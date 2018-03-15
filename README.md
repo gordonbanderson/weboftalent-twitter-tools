@@ -24,12 +24,7 @@ This module provides the following functionality
 * Twitter cards can be any type extending Page, provided an interface is implemented.
 
 ## Incorporate Twitter
-One needs to incorporate the Twitter JavaScript into the page template.  There are 2 ways of doing this:
-* Add <% Include TwitterScript %> which will render the JavaScript inline
-* <pre>**** THIS NEEDS RETESTED ****</pre>Include twitteruril.js, either through require_javascript or - note this also enlarges images in embedded tweets.
-
-```php
-    <% require javascript("weboftalent/twitter_tools: javascript/render-twitter-embeds.js") %>
+<% require javascript("weboftalent/twitter_tools: javascript/render-twitter-embeds.js") %>
 
 ```
 ##Embedding Tweets
