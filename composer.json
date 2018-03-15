@@ -1,7 +1,7 @@
 {
 	"name": "weboftalent/twitter-tools",
 	"description": "Embed tweets using shortcodes.  Optionally add Twitter cards to pages.",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"keywords": [
 		"silverstripe",
 		"shortcode",
