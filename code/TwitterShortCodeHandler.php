@@ -1,25 +1,55 @@
 <?php
 namespace WebOfTalent\TwitterTools;
 
-class TwitterShortCodeHandler
+use SilverStripe\View\ArrayData;
+use SilverStripe\View\Parsers\ShortcodeHandler;
+use SilverStripe\View\SSViewer;
+
+class TwitterShortCodeHandler implements ShortcodeHandler
 {
 
-    private static $casting = [
-        'MyShortCodeMethod' => 'HTMLText'
-    ];
-
-    public static function MyShortCodeMethod($arguments, $content = null, $parser = null, $tagName)
+    /**
+     * Gets the list of shortcodes provided by this handler
+     *
+     * @return mixed
+     */
+    public static function get_shortcodes()
     {
-        return "<em>" . $tagName . "</em> " . $content . "; " . count($arguments) . " arguments.";
+        return ['tweet'];
     }
 
-    //public static function MyShortCodeMethod($arguments, $content = null, $parser = null, $tagName)
-/*
-    public static function parse_tweet($arguments, $caption = null, $parser = null, $tagName)
+
+    /**
+     *
+     * @param array $arguments
+     * @param string $content
+     * @param ShortcodeParser $parser
+     * @param string $shortcode
+     * @param array $extra
+     *
+     * @return string
+     */
+    public static function handle_shortcode($arguments, $content, $parser, $shortcode, $extra = array())
     {
+        if (empty($arguments['id'])) {
+            return;
+        }
 
-        echo 'parsed tweet!!!!';
+        if (!empty($caption)) {
+            $arguments['Caption'] = $caption;
+        }
 
+        $customise = array();
+        $customise['TweetID'] = $arguments['id'];
+
+        //overide the defaults with the arguments supplied
+        $customise = array_merge($customise, $arguments);
+
+        $template = new SSViewer('RenderTweet');
+
+        //return the customised template
+        return $template->process(new ArrayData($customise));
+        /*
         if (!isset($arguments['id'])) {
             return null;
         }
@@ -48,10 +78,12 @@ class TwitterShortCodeHandler
 
             $tweet->Author = $author;
             $tweet->write();
+        } else {
+            return 'No embedded tweet to return';
         }
 
 
         return $tweet->HTML;
+        */
     }
-*/
 }

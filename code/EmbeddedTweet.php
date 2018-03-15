@@ -18,7 +18,6 @@ class EmbeddedTweet extends DataObject
     private static $belongs_to = array('Author' => 'EmbeddedTweetAuthor');
 
     private static $indexes = array(
-        // Just smack a btree index on Email
         'TwitterID' => true
     );
 }

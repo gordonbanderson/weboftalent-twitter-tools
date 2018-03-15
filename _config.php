@@ -1,6 +1,6 @@
 <?php
-// @todo Why is this not being called?
 use SilverStripe\View\Parsers\ShortcodeParser;
 
-//ShortcodeParser::get('default')->register('Tweet',[WebOfTalent\TwitterTools\TwitterShortCodeHandler::class,'parse_tweet']);
-//ShortcodeParser::get('default')->register('Tweet',[WebOfTalent\TwitterTools\TwitterShortCodeHandler::class,'parse_tweet']);
+echo '**** TWITTER SC SETUP MODULE ****';
+ShortcodeParser::get('default')->register('tweet',[WebOfTalent\TwitterTools\TwitterShortCodeHandler::class,'handle_shortcode']);
+echo '**** /TWITTER SC SETUP MODULE ****';

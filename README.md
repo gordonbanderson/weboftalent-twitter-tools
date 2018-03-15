@@ -31,7 +31,7 @@ One needs to incorporate the Twitter JavaScript into the page template.  There a
 ##Embedding Tweets
 Tweets can be embedded into content using a shortcode like the following - the id parameter is the id of the tweet.
 
-    [Tweet id='537136515445710848']
+    [tweet id='537136515445710848']
 
 ## Enlarging Embedded Images
 A script is included that you can include in your theme (either using require_javascript or a direct
