@@ -1,8 +1,3 @@
-window.onload = (function(){
-
-
-});
-
 twttr.ready(function (twttr) {
     console.log('Twitter ready');
 
@@ -22,7 +17,7 @@ twttr.ready(function (twttr) {
                 'align'		 : 'center'
             });
     }
-    
+
 
     twttr.events.bind(
         'loaded',
