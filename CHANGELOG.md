@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.0.0](https://github.com/gordonbanderson/weboftalent-twitter-tools/tree/2.0.0) (2018-03-15)
+[Full Changelog](https://github.com/gordonbanderson/weboftalent-twitter-tools/compare/1.0.0...2.0.0)
+
 ## [1.0.0](https://github.com/gordonbanderson/weboftalent-twitter-tools/tree/1.0.0) (2016-01-20)
 
 
