@@ -26,14 +26,21 @@ This module provides the following functionality
 ## Incorporate Twitter
 One needs to incorporate the Twitter JavaScript into the page template.  There are 2 ways of doing this:
 * Add <% Include TwitterScript %> which will render the JavaScript inline
-* Include twitteruril.js, either through require_javascript or - note this also enlarges images in embedded tweets.
+* <pre>**** THIS NEEDS RETESTED ****</pre>Include twitteruril.js, either through require_javascript or - note this also enlarges images in embedded tweets.
 
+```php
+    <% require javascript("weboftalent/twitter_tools: javascript/render-twitter-embeds.js") %>
+
+```
 ##Embedding Tweets
 Tweets can be embedded into content using a shortcode like the following - the id parameter is the id of the tweet.
 
     [tweet id='537136515445710848']
 
 ## Enlarging Embedded Images
+```
+**** THIS NEEDS RETESTED ****
+```
 A script is included that you can include in your theme (either using require_javascript or a direct
  script include in the template) called twitteruril.js - include this and larger (at source size, 
  perhaps not theme size) embedded images will render on your site.
@@ -76,7 +83,7 @@ class PageWithImage extends Page implements RenderableAsTwitterCard {
 ### Template Changes
 In your page template, add the following to inside <head></head> section of your page:
 
-```
+```txt
 <% include TwitterSummaryCardLargeImage %>
 ```
 

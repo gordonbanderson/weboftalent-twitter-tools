@@ -6,7 +6,6 @@ window.twttr = (function (d, s, id) {
   return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
 }(document, "script", "twitter-wjs"));
 	twttr.ready(function (twttr) {
-
 	  twttr.events.bind('rendered', function (event) {
 		  	var jqtarget = $(event.target);
 		  	// check the class of the widget, as getting the content of buttons causes a security error.
@@ -18,7 +17,7 @@ window.twttr = (function (d, s, id) {
 			  	jqtarget.find('img.autosized-media').each(function(e) {
 				  	jqthis = $(this);
 					var bigUrl = jqthis.attr('src');
-					
+
 					var srcset = jqthis.attr('data-srcset');
 					var decoded = decodeURIComponent(srcset);
 					var large_details = decoded.split(',')[0];
@@ -51,7 +50,7 @@ window.twttr = (function (d, s, id) {
 					//jqthis.removeAttr('height');
 			  	});
 	  		}
-		  	
+
 
 //console.log("Alterting height of iframe");
 
@@ -61,7 +60,7 @@ window.twttr = (function (d, s, id) {
 		var new_height = current_height+delta_height;
 
 	  	jqtarget.attr('height', new_height);
-	  });	
+	  });
 
-	  
+
 });
