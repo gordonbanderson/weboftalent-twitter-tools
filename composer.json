@@ -27,5 +27,10 @@
 			"WebOfTalent\\TwitterTools\\": "code/"
 		}
 	},
+	"extra": {
+		"expose": [
+			"javascript"
+		]
+	},
 	"license": "BSD-3-Clause"
 }
