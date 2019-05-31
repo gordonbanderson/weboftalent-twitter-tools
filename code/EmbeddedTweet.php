@@ -6,6 +6,8 @@ use SilverStripe\ORM\DataObject;
 
 class EmbeddedTweet extends DataObject
 {
+    private static $table_name = 'EmbeddedTweet';
+
     private static $db = array(
         'cache_age' => 'Int',
         'URL' => 'Varchar(255)',
