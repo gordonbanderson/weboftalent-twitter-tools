@@ -1,9 +1,40 @@
 #Twitter Utilities
-[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools.svg?branch=master)](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/build-status/master)
-[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools?branch=master)
+[![Build Status](https://travis-ci.org/gordonbanderson/silverstripe-sluggable.svg?branch=master)](https://travis-ci.org/gordonbanderson/silverstripe-sluggable)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-sluggable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-sluggable/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-sluggable/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-sluggable/build-status/master)
+[![CircleCI](https://circleci.com/gh/gordonbanderson/silverstripe-sluggable.svg?style=svg)](https://circleci.com/gh/gordonbanderson/silverstripe-sluggable)
+
+[![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-sluggable/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/silverstripe-sluggable?branch=master)
+
+
+[![Latest Stable Version](https://poser.pugx.org/suilven/sluggable/version)](https://packagist.org/packages/suilven/sluggable)
+[![Latest Unstable Version](https://poser.pugx.org/suilven/sluggable/v/unstable)](//packagist.org/packages/suilven/sluggable)
+[![Total Downloads](https://poser.pugx.org/suilven/sluggable/downloads)](https://packagist.org/packages/suilven/sluggable)
+[![License](https://poser.pugx.org/suilven/sluggable/license)](https://packagist.org/packages/suilven/sluggable)
+[![Monthly Downloads](https://poser.pugx.org/suilven/sluggable/d/monthly)](https://packagist.org/packages/suilven/sluggable)
+[![Daily Downloads](https://poser.pugx.org/suilven/sluggable/d/daily)](https://packagist.org/packages/suilven/sluggable)
+[![composer.lock](https://poser.pugx.org/suilven/sluggable/composerlock)](https://packagist.org/packages/suilven/sluggable)
+
+[![GitHub Code Size](https://img.shields.io/github/languages/code-size/gordonbanderson/silverstripe-sluggable)](https://github.com/gordonbanderson/silverstripe-sluggable)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/gordonbanderson/silverstripe-sluggable)](https://github.com/gordonbanderson/silverstripe-sluggable)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/gordonbanderson/silverstripe-sluggable)](https://github.com/gordonbanderson/silverstripe-sluggable)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/m/gordonbanderson/silverstripe-sluggable)](https://github.com/gordonbanderson/silverstripe-sluggable)
+[![GitHub Issues](https://img.shields.io/github/issues/gordonbanderson/silverstripe-sluggable)](https://github.com/gordonbanderson/silverstripe-sluggable/issues)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-sluggable/branch.svg?branch=master)
+
+
+
+
+OLD
+
+
+
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools.svg?branch=badgertest)](https://travis-ci.org/gordonbanderson/weboftalent-twitter-tools)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/quality-score.png?b=badgertest)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=badgertest)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/coverage.png?b=badgertest)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/?branch=badgertest)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/badges/build.png?b=badgertest)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-twitter-tools/build-status/badgertest)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/coverage.svg?branch=badgertest)](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools?branch=badgertest)
 
 [![Latest Stable Version](https://poser.pugx.org/weboftalent/twitter-tools/version)](https://packagist.org/packages/weboftalent/twitter-tools)
 [![Latest Unstable Version](https://poser.pugx.org/weboftalent/twitter-tools/v/unstable)](//packagist.org/packages/weboftalent/twitter-tools)
@@ -12,10 +43,8 @@
 [![Monthly Downloads](https://poser.pugx.org/weboftalent/twitter-tools/d/monthly)](https://packagist.org/packages/weboftalent/twitter-tools)
 [![Daily Downloads](https://poser.pugx.org/weboftalent/twitter-tools/d/daily)](https://packagist.org/packages/weboftalent/twitter-tools)
 
-[![Dependency Status](https://www.versioneye.com/php/weboftalent:twitter-tools/badge.svg)](https://www.versioneye.com/php/weboftalent:twitter-tools)
-[![Reference Status](https://www.versioneye.com/php/weboftalent:twitter-tools/reference_badge.svg?style=flat)](https://www.versioneye.com/php/weboftalent:twitter-tools/references)
 
-![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/branch.svg?branch=master)
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-twitter-tools/branch.svg?branch=badgertest)
 
 ##Introduction
 This module provides the following functionality
